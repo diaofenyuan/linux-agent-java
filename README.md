@@ -33,7 +33,7 @@ curl http://127.0.0.1:18080/api/health
 ## 目录结构
 
 ```
-src/main/java/com/Linux/agent/
+src/main/java/com/linux/agent/
 ├── ApiApplication.java      # 入口（对应 backend/ops_agent_api.py）
 ├── config/                  # AppProperties（OPS_AGENT_* 环境变量）、WebConfig
 ├── web/                     # 统一响应、错误码、异常、请求ID、分页
